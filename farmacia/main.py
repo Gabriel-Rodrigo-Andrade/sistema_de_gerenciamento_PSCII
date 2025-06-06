@@ -7,9 +7,7 @@ def menu():
     print("2. Adicionar Produto")
     print("3. Remover Produto")
     print("4. Editar Produto")
-    print("5. Buscar por Nome")
-    print("6. Buscar por Categoria")
-    print("7. Sair")
+    print("5. Sair")  # Agora "Sair" é a opção 5
 
 # Cria uma instância do catálogo
 catalogo = CatalogoFarmacia()
@@ -72,14 +70,6 @@ while True:
         catalogo.editar_produto(codigo, nome, categoria, preco)
 
     elif opcao == '5':
-        nome = input("Digite o nome para buscar: ")
-        catalogo.buscar_por_nome(nome)
-
-    elif opcao == '6':
-        categoria = input("Digite a categoria para buscar: ")
-        catalogo.buscar_por_categoria(categoria)
-
-    elif opcao == '7':
         print("Saindo...")
         break
 
