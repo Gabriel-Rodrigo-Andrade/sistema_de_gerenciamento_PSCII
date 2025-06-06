@@ -10,8 +10,8 @@ Este é um sistema simples de **gerenciamento de produtos** de uma farmácia esp
 - ➕ **Adicionar** novo produto com validação
 - ❌ **Remover** produto por código
 - ✏️ **Editar** informações de um produto
-- 🔍 **Buscar** produtos por nome
-- 🔍 **Buscar** produtos por categoria
+- 🔍 **<s>Buscar** produtos por nome</s>
+- 🔍 **<s>Buscar** produtos por categoria</s>
 - 💾 **Salvar e carregar** os dados em um arquivo `produtos.txt`
 - ✅ **Verificação automática** de entrada correta (números e letras)
 
