@@ -54,7 +54,7 @@ $ python main.py
 2. Adicionar Produto
 3. Remover Produto
 4. Editar Produto
-5. Buscar por Nome
-6. Buscar por Categoria
+5. <s>Buscar por Nome</s>
+6. <s>Buscar por Categoria</s>
 7. Sair
 Escolha uma opção: 2
